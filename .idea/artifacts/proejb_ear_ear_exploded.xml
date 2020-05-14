@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="proejb-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/proejb-ear/target/proejb-ear-1.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>proejb-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="proejb-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/proejb-ear/target/proejb-ear-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="org.proejb-proejb-inf-1.0.jar">
+          <element id="module-output" name="proejb-inf" />
+        </element>
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar" output-file-name="javax-javaee-api-8.0.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar" output-file-name="com.sun.mail-javax.mail-1.6.0.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar" output-file-name="javax.activation-activation-1.1.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar" output-file-name="log4j-log4j-1.2.17.jar" />
+      </element>
+      <element id="archive" name="org.proejb-proejb-impl-1.0.jar">
+        <element id="artifact" artifact-name="proejb-impl:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

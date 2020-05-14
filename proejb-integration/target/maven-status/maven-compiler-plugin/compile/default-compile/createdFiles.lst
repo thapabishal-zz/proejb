@@ -1,0 +1,6 @@
+org\proejb\integration\utils\JerseyResourceConfig$1$1.class
+org\proejb\integration\utils\ContextUtils.class
+org\proejb\integration\rest\UserServiceRest.class
+org\proejb\integration\utils\JerseyResourceConfig$1.class
+org\proejb\integration\utils\JerseyResourceConfig.class
+org\proejb\integration\utils\EjbIntegrationWebInjectResolver.class

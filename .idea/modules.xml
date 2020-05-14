@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/proejb.iml" filepath="$PROJECT_DIR$/proejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proejb-ear/proejb-ear.iml" filepath="$PROJECT_DIR$/proejb-ear/proejb-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proejb-business/proejb-impl/proejb-impl.iml" filepath="$PROJECT_DIR$/proejb-business/proejb-impl/proejb-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proejb-business/proejb-inf/proejb-inf.iml" filepath="$PROJECT_DIR$/proejb-business/proejb-inf/proejb-inf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proejb-integration/proejb-integration.iml" filepath="$PROJECT_DIR$/proejb-integration/proejb-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proejb-test/proejb-test.iml" filepath="$PROJECT_DIR$/proejb-test/proejb-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proejb-web/proejb-web.iml" filepath="$PROJECT_DIR$/proejb-web/proejb-web.iml" />
+    </modules>
+  </component>
+</project>

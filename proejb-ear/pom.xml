@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>proejb</artifactId>
+        <groupId>org.proejb</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>proejb-ear</artifactId>
+    <packaging>ear</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.proejb</groupId>
+            <artifactId>proejb-inf</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.proejb</groupId>
+            <artifactId>proejb-impl</artifactId>
+            <version>1.0</version>
+            <type>ejb</type>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <defaultLibBundleDir>/lib</defaultLibBundleDir>
+                    <displayName>proejb-ear</displayName>
+                    <version>6</version>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+
+
+
+
+</project>
