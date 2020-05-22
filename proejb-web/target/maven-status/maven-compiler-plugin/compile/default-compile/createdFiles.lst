@@ -1,2 +1,3 @@
 org\proejb\web\view\HomeController.class
-org\proejb\web\utils\BeanFactoryConfig.class
+org\proejb\web\view\UserServiceRest.class
+org\proejb\web\utils\EjbBeanAutowireFactory.class

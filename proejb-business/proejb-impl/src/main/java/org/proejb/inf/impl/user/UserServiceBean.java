@@ -3,9 +3,12 @@ package org.proejb.inf.impl.user;
 import org.apache.log4j.Logger;
 import org.proejb.inf.bean.UserServiceBeanRemote;
 import org.proejb.inf.dto.UserDto;
+
+import javax.ejb.AsyncResult;
+import javax.ejb.Asynchronous;
 import javax.ejb.Stateless;
 import java.time.LocalDate;
-import java.util.Date;
+import java.util.concurrent.Future;
 
 @Stateless(name = UserServiceBeanRemote.BEAN_NAME)
 public class UserServiceBean implements UserServiceBeanRemote {
@@ -25,5 +28,10 @@ public class UserServiceBean implements UserServiceBeanRemote {
         return dto;
     }
 
-
+    @Asynchronous
+    @Override
+    public Future<String> deleteUser(long id) throws InterruptedException {
+        Thread.sleep(4000);
+        return new AsyncResult<String>("Wait is over");
+    }
 }

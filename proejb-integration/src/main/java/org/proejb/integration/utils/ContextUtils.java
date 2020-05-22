@@ -26,6 +26,16 @@ public class ContextUtils {
         return contextUtils;
     }
 
+
+    private static Properties getProperties() {
+        Properties properties = new Properties();
+        properties.put(Context.INITIAL_CONTEXT_FACTORY,"weblogic.jndi.WLInitialContextFactory");
+        properties.put(Context.PROVIDER_URL,"t3://localhost:7001");
+        return properties;
+    }
+
+
+/*   For Wildfly properties
     private static Properties getProperties() {
         Properties properties = new Properties();
         properties.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
@@ -33,7 +43,7 @@ public class ContextUtils {
         properties.put(Context.PROVIDER_URL, "remote+http://localhost:8080");
 
         return properties;
-    }
+    }*/
 
     public Object lookupRemote(String jndiName) {
         Object object = null;

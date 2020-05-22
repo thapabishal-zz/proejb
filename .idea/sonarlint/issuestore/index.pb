@@ -33,3 +33,11 @@ Z
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 y
 Iproejb-web/src/main/java/org/proejb/web/utils/EjbBeanAutowireFactory.java,8\a\8a65567e2e06ca5ec32278529534058111b7666e
+’
+bproejb-integration/src/main/java/org/proejb/integration/utils/EjbIntegrationWebInjectResolver.java,0\b\0bcd916054216853157b4af74eecede2d1d0b95f
+`
+0proejb-web/src/main/webapp/assets/main-theme.css,5\e\5e0e3fe951ac0999275002dfbc49c9118760694c
+`
+0proejb-web/src/main/webapp/WEB-INF/jsp/index.jsp,6\5\6553224dbb7c07a02fde5a5a79bd6d5aead01bb0
+q
+Aproejb-web/src/main/java/org/proejb/web/view/UserServiceRest.java,f\9\f932fd1110efa454cfad883f5cf86971bd8cbb85
